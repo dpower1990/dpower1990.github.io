@@ -15,7 +15,8 @@
     <div class="row">
       <h1 class="col-sm-8">Skillfair</h1>
       <nav class="col-sm-4">
-        <p><a href="https://dpower1990.github.io/pages" target="_blank">newest</a></p>
+      <a href="/pages" class="nav-link w-nav-link">newest</a>
+   
         <p>catalogue</p>
         <p>contact</p>
       </nav>
