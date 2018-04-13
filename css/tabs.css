@@ -98,7 +98,7 @@ ul.nav.nav-tabs.text-center::before {
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus {
 	color: white;
-	background-color: #568f99;
+	background-color: #91d6ff;
 	height: 150px;
 	width: 150px;
 	max-width: 150px;
@@ -107,7 +107,7 @@ ul.nav.nav-tabs.text-center::before {
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-	background-color: #568f99;
+	background-color: #91d6ff;
 	color: white;
 	border: none;
 }
