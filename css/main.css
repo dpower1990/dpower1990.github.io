@@ -8,6 +8,11 @@ header {
   padding: 20px 0;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 header .row,
 footer .row {
   display: flex;
