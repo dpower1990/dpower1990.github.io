@@ -62,9 +62,7 @@ section .row img {
   heigh: auto;
 }
 
-.col-md-6 {
-  margin: 0 0 30px;
-}
+
 
 .btn.btn-primary {
   border-radius: 2px;
