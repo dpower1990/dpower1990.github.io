@@ -35,7 +35,8 @@ header p {
   display: flex;
   align-items: center;
   background-image: url('/bgr3.jpg');
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center center;
   color: #ffffff;
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
