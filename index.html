@@ -1,13 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  
 <head>
-  <title>Skillfair</title>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Danny Power</title>
+ 
+  <link rel="icon" href="d-d.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="d-d.ico" type="image/x-icon"/>
 
-
-  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+  
+  <!-- Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link href="css/spectrum.css" rel="stylesheet">
+  <link href="css/tabs.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+  <link href="css/nav.css" rel="stylesheet">
+  
 </head>
 
 <body>
@@ -31,29 +45,9 @@
     </div>
   </section>
 
-  <section class="container">
-    <div class="row">
-      <figure class="col-sm-6">
-        <p>kitchen</p>
-        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/kitchen.jpg">
-      </figure>
-      <figure class="col-sm-6">
-        <p>woodwork</p>
-        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/woodwork.jpg">
-      </figure>
-      <figure class="col-sm-6">
-        <p>gifts</p>
-        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/gifts.jpg">
-      </figure>
-      <figure class="col-sm-6">
-        <p>antiques</p>
-        <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/antique.jpg">
-      </figure>
-    </div>
-    <div class="row text-center">
-      <a class="btn btn-secondary" href="#">View Complete Catalogue</a>
-    </div>
-  </section>
+ 
+  
+  
   <footer class="container">
     <div class="row">
       <p class="col-sm-4">&copy; 2016 Skillfair</p>
@@ -73,6 +67,31 @@
       </ul>
     </div>
   </footer>
+  
+  <!-- Core Javascript files>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Plugin Javascript files>
+  <script src="/js/spectrum.nav.js"></script>
+
+  <!-- Temp accordion JS file>
+  <script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+              panel.style.display = "none";
+          } else {
+              panel.style.display = "block";
+          }
+      });
+  }
+  </script>
+
 </body>
 
 </html>
