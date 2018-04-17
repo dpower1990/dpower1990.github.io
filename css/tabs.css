@@ -46,7 +46,7 @@ ul.nav.nav-tabs li {
 
 }
 
-.nav-tabs>li::active {
+.nav-tabs>li:active {
 	top: -10px;
 }
 
