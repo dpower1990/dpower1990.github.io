@@ -10,7 +10,7 @@ if( $('#some-element').css('display')=='none') {
 
 if (is_mobile == true) {
     //Conditional script here
-    var acc = document.getElementsByClassName("Reasons");
+    var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
