@@ -31,6 +31,7 @@ aside {
 }
 .jumbotron {
   background-color: #fdfdfd;
+  margin-bottom: 0px;
 }
 .page-header {
   border-bottom-color: #d6dae2;
