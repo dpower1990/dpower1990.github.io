@@ -121,3 +121,21 @@ ul.nav.nav-tabs.text-center::before {
 	margin: -20px 0 100px 0;
 }
 }
+@media (max-device-width: 991px) {
+      .accordion {
+        display: block;
+      }
+      .Reasons {
+        display: none;
+      }
+     
+    }
+
+ @media (min-device-width: 992px) {
+      .accordion {
+        display: none;
+      }
+      .Reasons {
+        display: block;
+      }
+    }
